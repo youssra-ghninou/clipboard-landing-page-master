@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;1,500&display=swap');
+body{
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    background-image: url("./images/bg-header-mobile.png");
+    background-repeat: no-repeat;
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top:90px ;
+    gap: 3.5rem;
+}
+.logoc{
+    width: 150px;
+    height: 150px; 
+}
+.text1{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: hsl(210, 10%, 33%);
+    width: 360px;
+    margin-top: 20px;
+}
+.text2{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    font-size: 20px;
+    width: 360px;
+    margin-bottom: 20px;
+}
+.download{
+    display: flex;
+    flex-direction: column;
+    gap:1.25rem;
+    margin-top: 20px;
+}
+button{
+    width: 330px;
+    height: 50px;
+    border-radius: 20px;
+    border-color: transparent;
+}
+a{
+    text-decoration: none;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    color: white;
+}
+.ios{
+    background-color:  hsl(171, 66%, 44%);
+}
+.mac{
+    background-color: hsl(233, 100%, 69%);
+}
+.computer{
+    height: 260px;
+    width: 300px;
+}
+img{
+    height: 50px;
+    width: 50px;
+    margin-top: 20px;
+}
+.companies{
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-bottom: 100px;
+}
+.company{
+    height: 100px;
+    width: 100px;
+}
+.section{
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    color: hsl(210, 10%, 33%);
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 300px;
+}
+.socials{
+    display: flex;
+    gap: 2rem;
+}
+.social{
+    height: 30px;
+    width: 30px;
+}
+.lastsec{
+    background-color: hsl(210, 5%, 93%);
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+    gap: 1rem;
+}
+.parag{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.sec1{
+    margin-bottom: 100px;
+}
+@media only screen and (min-width: 1024px) {
+   .text1{
+       width:600px;
+       font-size: 40px;
+   }
+   .text2{
+    width:600px;
+   }
+   .download{
+       flex-direction: row;
+   }
+   button{
+       width: 250px;
+   }
+   .track{
+       text-align: center;
+       width: 600px;
+       margin-left: 300px ;
+   }
+   .secdesk{
+       display: flex;
+       flex-direction: row;
+       gap: 6rem;
+   }
+   .textdesk{
+      text-align:left ;
+   }
+   .computer{
+    height: 700px;
+    width: 750px;
+  } 
+  .hover{
+      display: flex;
+      flex-direction: row;
+  }
+  .companies{
+    display: flex;
+    flex-direction: row;
+    gap: 6rem;
+  }
+  .company{
+    height: 150px;
+    width: 150px;
+}
+.lastsec{
+    width: 100vw;
+    height: 200px;
+    flex-direction: row;
+    gap: 6rem;
+    justify-content: space-around;
+}
+.line1{
+    display: flex;
+    gap: 4rem;
+}
+.section{
+    margin-top: 265px;
+}
+} 
