@@ -122,6 +122,9 @@ img{
     margin-bottom: 100px;
 }
 @media only screen and (min-width: 1024px) {
+    .main{
+        text-align: center;
+    }
    .text1{
        width:600px;
        font-size: 40px;
